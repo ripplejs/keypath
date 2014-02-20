@@ -1,5 +1,5 @@
 
-# keypath
+# keypath [![Build Status](https://travis-ci.org/ripplejs/keypath.png?branch=master)](https://travis-ci.org/ripplejs/keypath) ![stable](http://img.shields.io/badge/stability-stable-green.svg)
 
   Get or set a property on an object using a keypath
 
