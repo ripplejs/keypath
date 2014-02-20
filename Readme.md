@@ -7,10 +7,24 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install ripplet/keypath
+    $ component install ripplejs/keypath
 
 ## API
 
+```js
+var keypath = require('keypath');
+
+var obj {
+  foo: {
+    bar: {
+      baz: 1
+    }
+  }
+};
+
+keypath.get('foo.bar.baz') // 1
+keypath.set('foo.bar.baz', 2);
+```
 
 
 ## License
